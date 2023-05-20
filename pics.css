@@ -1,0 +1,22 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(to right top ,#eb6cb6,#dd375b);
+}
+
+.first,.second,.third{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-title{
+    display: flex;
+    justify-content: space-around;
+    /* border:1px solid rgb(18, 147, 194); */
+    /* background-color: rgb(18, 147, 194); */
+    border-radius: 10px;
+}
+.card-text{
+    display: flex;
+    justify-content: space-around;
+}
